@@ -1,8 +1,8 @@
 spring:
   application:
     name: restaurant
-  config: configserver:http://127.0.0.1:8888
-    import:
+  config:
+    import: configserver:http://127.0.0.1:8888
 server:
   port: ${app.port:10000}
   tomcat:
