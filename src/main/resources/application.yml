@@ -1,3 +1,7 @@
+app:
+  sub-domain: sub1
+  bounded-context: bd2
+  microservice: restaurant
 spring:
   application:
     name: restaurant
